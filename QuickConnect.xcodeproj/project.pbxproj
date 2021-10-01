@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDAFF8772705E24200A8E070 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFF8762705E24200A8E070 /* Keychain.swift */; };
+		CDAFF87A2705E27400A8E070 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFF8792705E27400A8E070 /* Credentials.swift */; };
+		CDAFF87E27061B2A00A8E070 /* View+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFF87D27061B2A00A8E070 /* View+Extended.swift */; };
+		CDAFF88127061C6400A8E070 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFF88027061C6400A8E070 /* Log.swift */; };
+		CDAFF8832706218A00A8E070 /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFF8822706218A00A8E070 /* Terminal.swift */; };
+		CDAFF8862706353500A8E070 /* String+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFF8852706353500A8E070 /* String+Extended.swift */; };
+		CDBC98642706F6EB00B4851F /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC98632706F6EB00B4851F /* StatusView.swift */; };
+		CDBC98662706FCC800B4851F /* DisconnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC98652706FCC800B4851F /* DisconnectButton.swift */; };
+		CDBC98682706FDE900B4851F /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC98672706FDE900B4851F /* ConnectButton.swift */; };
+		CDBC986A2707006B00B4851F /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC98692707006B00B4851F /* Status.swift */; };
+		CDBC986C2707010700B4851F /* InputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC986B2707010700B4851F /* InputForm.swift */; };
+		CDBC986E2707016F00B4851F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC986D2707016F00B4851F /* Header.swift */; };
+		CDF5D7EB2705B8F0000DDB09 /* QuickConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D7EA2705B8F0000DDB09 /* QuickConnectApp.swift */; };
+		CDF5D7ED2705B8F0000DDB09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D7EC2705B8F0000DDB09 /* ContentView.swift */; };
+		CDF5D7EF2705B8F1000DDB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF5D7EE2705B8F1000DDB09 /* Assets.xcassets */; };
+		CDF5D7F22705B8F1000DDB09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF5D7F12705B8F1000DDB09 /* Preview Assets.xcassets */; };
+		CDF5D7FD2705B8F2000DDB09 /* QuickConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D7FC2705B8F2000DDB09 /* QuickConnectTests.swift */; };
+		CDF5D8072705B8F2000DDB09 /* QuickConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D8062705B8F2000DDB09 /* QuickConnectUITests.swift */; };
+		CDF5D8092705B8F2000DDB09 /* QuickConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D8082705B8F2000DDB09 /* QuickConnectUITestsLaunchTests.swift */; };
+		CDF5D8172705C1D2000DDB09 /* Valet in Frameworks */ = {isa = PBXBuildFile; productRef = CDF5D8162705C1D2000DDB09 /* Valet */; };
+		CDF5D81A2705C779000DDB09 /* SwiftOTP in Frameworks */ = {isa = PBXBuildFile; productRef = CDF5D8192705C779000DDB09 /* SwiftOTP */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF5D7F92705B8F2000DDB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF5D7DF2705B8F0000DDB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF5D7E62705B8F0000DDB09;
+			remoteInfo = QuickConnect;
+		};
+		CDF5D8032705B8F2000DDB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF5D7DF2705B8F0000DDB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF5D7E62705B8F0000DDB09;
+			remoteInfo = QuickConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDAFF8762705E24200A8E070 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		CDAFF8792705E27400A8E070 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		CDAFF87D27061B2A00A8E070 /* View+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extended.swift"; sourceTree = "<group>"; };
+		CDAFF88027061C6400A8E070 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		CDAFF8822706218A00A8E070 /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
+		CDAFF8852706353500A8E070 /* String+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extended.swift"; sourceTree = "<group>"; };
+		CDBC98632706F6EB00B4851F /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		CDBC98652706FCC800B4851F /* DisconnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectButton.swift; sourceTree = "<group>"; };
+		CDBC98672706FDE900B4851F /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
+		CDBC98692707006B00B4851F /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		CDBC986B2707010700B4851F /* InputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputForm.swift; sourceTree = "<group>"; };
+		CDBC986D2707016F00B4851F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		CDF5D7E72705B8F0000DDB09 /* QuickConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF5D7EA2705B8F0000DDB09 /* QuickConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConnectApp.swift; sourceTree = "<group>"; };
+		CDF5D7EC2705B8F0000DDB09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDF5D7EE2705B8F1000DDB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF5D7F12705B8F1000DDB09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDF5D7F32705B8F1000DDB09 /* QuickConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickConnect.entitlements; sourceTree = "<group>"; };
+		CDF5D7F82705B8F2000DDB09 /* QuickConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF5D7FC2705B8F2000DDB09 /* QuickConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConnectTests.swift; sourceTree = "<group>"; };
+		CDF5D8022705B8F2000DDB09 /* QuickConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF5D8062705B8F2000DDB09 /* QuickConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConnectUITests.swift; sourceTree = "<group>"; };
+		CDF5D8082705B8F2000DDB09 /* QuickConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF5D7E42705B8F0000DDB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF5D81A2705C779000DDB09 /* SwiftOTP in Frameworks */,
+				CDF5D8172705C1D2000DDB09 /* Valet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF5D7F52705B8F2000DDB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF5D7FF2705B8F2000DDB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAFF8752705E23000A8E070 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFF8762705E24200A8E070 /* Keychain.swift */,
+				CDAFF8822706218A00A8E070 /* Terminal.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CDAFF8782705E26800A8E070 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFF8792705E27400A8E070 /* Credentials.swift */,
+				CDBC98692707006B00B4851F /* Status.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		CDAFF87B27061B1100A8E070 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFF8842706352700A8E070 /* Swift */,
+				CDAFF87C27061B2000A8E070 /* SwiftUI */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDAFF87C27061B2000A8E070 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFF87D27061B2A00A8E070 /* View+Extended.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		CDAFF87F27061C5900A8E070 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFF88027061C6400A8E070 /* Log.swift */,
+				CDBC98632706F6EB00B4851F /* StatusView.swift */,
+				CDBC98652706FCC800B4851F /* DisconnectButton.swift */,
+				CDBC98672706FDE900B4851F /* ConnectButton.swift */,
+				CDBC986B2707010700B4851F /* InputForm.swift */,
+				CDBC986D2707016F00B4851F /* Header.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CDAFF8842706352700A8E070 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CDAFF8852706353500A8E070 /* String+Extended.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		CDF5D7DE2705B8F0000DDB09 = {
+			isa = PBXGroup;
+			children = (
+				CDF5D7E92705B8F0000DDB09 /* QuickConnect */,
+				CDF5D7FB2705B8F2000DDB09 /* QuickConnectTests */,
+				CDF5D8052705B8F2000DDB09 /* QuickConnectUITests */,
+				CDF5D7E82705B8F0000DDB09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF5D7E82705B8F0000DDB09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5D7E72705B8F0000DDB09 /* QuickConnect.app */,
+				CDF5D7F82705B8F2000DDB09 /* QuickConnectTests.xctest */,
+				CDF5D8022705B8F2000DDB09 /* QuickConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF5D7E92705B8F0000DDB09 /* QuickConnect */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5D7EA2705B8F0000DDB09 /* QuickConnectApp.swift */,
+				CDF5D7EC2705B8F0000DDB09 /* ContentView.swift */,
+				CDAFF87F27061C5900A8E070 /* Components */,
+				CDAFF87B27061B1100A8E070 /* Extensions */,
+				CDAFF8782705E26800A8E070 /* Types */,
+				CDAFF8752705E23000A8E070 /* Utilities */,
+				CDF5D7EE2705B8F1000DDB09 /* Assets.xcassets */,
+				CDF5D7F32705B8F1000DDB09 /* QuickConnect.entitlements */,
+				CDF5D7F02705B8F1000DDB09 /* Preview Content */,
+			);
+			path = QuickConnect;
+			sourceTree = "<group>";
+		};
+		CDF5D7F02705B8F1000DDB09 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5D7F12705B8F1000DDB09 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDF5D7FB2705B8F2000DDB09 /* QuickConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5D7FC2705B8F2000DDB09 /* QuickConnectTests.swift */,
+			);
+			path = QuickConnectTests;
+			sourceTree = "<group>";
+		};
+		CDF5D8052705B8F2000DDB09 /* QuickConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF5D8062705B8F2000DDB09 /* QuickConnectUITests.swift */,
+				CDF5D8082705B8F2000DDB09 /* QuickConnectUITestsLaunchTests.swift */,
+			);
+			path = QuickConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF5D7E62705B8F0000DDB09 /* QuickConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF5D80C2705B8F2000DDB09 /* Build configuration list for PBXNativeTarget "QuickConnect" */;
+			buildPhases = (
+				CDF5D7E32705B8F0000DDB09 /* Sources */,
+				CDF5D7E42705B8F0000DDB09 /* Frameworks */,
+				CDF5D7E52705B8F0000DDB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickConnect;
+			packageProductDependencies = (
+				CDF5D8162705C1D2000DDB09 /* Valet */,
+				CDF5D8192705C779000DDB09 /* SwiftOTP */,
+			);
+			productName = QuickConnect;
+			productReference = CDF5D7E72705B8F0000DDB09 /* QuickConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF5D7F72705B8F2000DDB09 /* QuickConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF5D80F2705B8F2000DDB09 /* Build configuration list for PBXNativeTarget "QuickConnectTests" */;
+			buildPhases = (
+				CDF5D7F42705B8F2000DDB09 /* Sources */,
+				CDF5D7F52705B8F2000DDB09 /* Frameworks */,
+				CDF5D7F62705B8F2000DDB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF5D7FA2705B8F2000DDB09 /* PBXTargetDependency */,
+			);
+			name = QuickConnectTests;
+			productName = QuickConnectTests;
+			productReference = CDF5D7F82705B8F2000DDB09 /* QuickConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF5D8012705B8F2000DDB09 /* QuickConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF5D8122705B8F2000DDB09 /* Build configuration list for PBXNativeTarget "QuickConnectUITests" */;
+			buildPhases = (
+				CDF5D7FE2705B8F2000DDB09 /* Sources */,
+				CDF5D7FF2705B8F2000DDB09 /* Frameworks */,
+				CDF5D8002705B8F2000DDB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF5D8042705B8F2000DDB09 /* PBXTargetDependency */,
+			);
+			name = QuickConnectUITests;
+			productName = QuickConnectUITests;
+			productReference = CDF5D8022705B8F2000DDB09 /* QuickConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF5D7DF2705B8F0000DDB09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CDF5D7E62705B8F0000DDB09 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CDF5D7F72705B8F2000DDB09 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CDF5D7E62705B8F0000DDB09;
+					};
+					CDF5D8012705B8F2000DDB09 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CDF5D7E62705B8F0000DDB09;
+					};
+				};
+			};
+			buildConfigurationList = CDF5D7E22705B8F0000DDB09 /* Build configuration list for PBXProject "QuickConnect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF5D7DE2705B8F0000DDB09;
+			packageReferences = (
+				CDF5D8152705C1D2000DDB09 /* XCRemoteSwiftPackageReference "Valet" */,
+				CDF5D8182705C779000DDB09 /* XCRemoteSwiftPackageReference "SwiftOTP" */,
+			);
+			productRefGroup = CDF5D7E82705B8F0000DDB09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF5D7E62705B8F0000DDB09 /* QuickConnect */,
+				CDF5D7F72705B8F2000DDB09 /* QuickConnectTests */,
+				CDF5D8012705B8F2000DDB09 /* QuickConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF5D7E52705B8F0000DDB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF5D7F22705B8F1000DDB09 /* Preview Assets.xcassets in Resources */,
+				CDF5D7EF2705B8F1000DDB09 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF5D7F62705B8F2000DDB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF5D8002705B8F2000DDB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF5D7E32705B8F0000DDB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC986C2707010700B4851F /* InputForm.swift in Sources */,
+				CDF5D7ED2705B8F0000DDB09 /* ContentView.swift in Sources */,
+				CDF5D7EB2705B8F0000DDB09 /* QuickConnectApp.swift in Sources */,
+				CDBC98642706F6EB00B4851F /* StatusView.swift in Sources */,
+				CDBC98682706FDE900B4851F /* ConnectButton.swift in Sources */,
+				CDAFF88127061C6400A8E070 /* Log.swift in Sources */,
+				CDAFF8862706353500A8E070 /* String+Extended.swift in Sources */,
+				CDAFF87E27061B2A00A8E070 /* View+Extended.swift in Sources */,
+				CDAFF87A2705E27400A8E070 /* Credentials.swift in Sources */,
+				CDAFF8772705E24200A8E070 /* Keychain.swift in Sources */,
+				CDBC986E2707016F00B4851F /* Header.swift in Sources */,
+				CDAFF8832706218A00A8E070 /* Terminal.swift in Sources */,
+				CDBC98662706FCC800B4851F /* DisconnectButton.swift in Sources */,
+				CDBC986A2707006B00B4851F /* Status.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF5D7F42705B8F2000DDB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF5D7FD2705B8F2000DDB09 /* QuickConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF5D7FE2705B8F2000DDB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF5D8072705B8F2000DDB09 /* QuickConnectUITests.swift in Sources */,
+				CDF5D8092705B8F2000DDB09 /* QuickConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF5D7FA2705B8F2000DDB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF5D7E62705B8F0000DDB09 /* QuickConnect */;
+			targetProxy = CDF5D7F92705B8F2000DDB09 /* PBXContainerItemProxy */;
+		};
+		CDF5D8042705B8F2000DDB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF5D7E62705B8F0000DDB09 /* QuickConnect */;
+			targetProxy = CDF5D8032705B8F2000DDB09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDF5D80A2705B8F2000DDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDF5D80B2705B8F2000DDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CDF5D80D2705B8F2000DDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = QuickConnect/QuickConnect.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = YJX8364U56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuickConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDF5D80E2705B8F2000DDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = QuickConnect/QuickConnect.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = YJX8364U56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuickConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CDF5D8102705B8F2000DDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuickConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickConnect.app/Contents/MacOS/QuickConnect";
+			};
+			name = Debug;
+		};
+		CDF5D8112705B8F2000DDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuickConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickConnect.app/Contents/MacOS/QuickConnect";
+			};
+			name = Release;
+		};
+		CDF5D8132705B8F2000DDB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuickConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuickConnect;
+			};
+			name = Debug;
+		};
+		CDF5D8142705B8F2000DDB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QuickConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuickConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF5D7E22705B8F0000DDB09 /* Build configuration list for PBXProject "QuickConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF5D80A2705B8F2000DDB09 /* Debug */,
+				CDF5D80B2705B8F2000DDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF5D80C2705B8F2000DDB09 /* Build configuration list for PBXNativeTarget "QuickConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF5D80D2705B8F2000DDB09 /* Debug */,
+				CDF5D80E2705B8F2000DDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF5D80F2705B8F2000DDB09 /* Build configuration list for PBXNativeTarget "QuickConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF5D8102705B8F2000DDB09 /* Debug */,
+				CDF5D8112705B8F2000DDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF5D8122705B8F2000DDB09 /* Build configuration list for PBXNativeTarget "QuickConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF5D8132705B8F2000DDB09 /* Debug */,
+				CDF5D8142705B8F2000DDB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDF5D8152705C1D2000DDB09 /* XCRemoteSwiftPackageReference "Valet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/square/Valet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		CDF5D8182705C779000DDB09 /* XCRemoteSwiftPackageReference "SwiftOTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lachlanbell/SwiftOTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDF5D8162705C1D2000DDB09 /* Valet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDF5D8152705C1D2000DDB09 /* XCRemoteSwiftPackageReference "Valet" */;
+			productName = Valet;
+		};
+		CDF5D8192705C779000DDB09 /* SwiftOTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDF5D8182705C779000DDB09 /* XCRemoteSwiftPackageReference "SwiftOTP" */;
+			productName = SwiftOTP;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDF5D7DF2705B8F0000DDB09 /* Project object */;
+}
