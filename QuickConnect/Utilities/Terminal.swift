@@ -4,9 +4,6 @@ import Combine
 
 struct Terminal {
 	
-//	@Published
-//	private(set) var output: String = ""
-	
 	private let center = NotificationCenter.default
 	
 	// https://stackoverflow.com/a/55196475/4698501
