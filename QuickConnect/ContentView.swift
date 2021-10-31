@@ -24,7 +24,6 @@ struct ContentView: View {
 	
 	var body: some View {
 		VStack(spacing: 20) {
-			Header()
 			InputForm(credentials: $credentials, status: $status, isRemembered: $isRemembered)
 			VStack {
 				HStack {
@@ -53,7 +52,7 @@ struct ContentView: View {
 			}
 		}
 		.padding()
-		.frame(minWidth: 500, alignment: .top)
+		.frame(minWidth: 300, alignment: .top)
 	}
 }
 

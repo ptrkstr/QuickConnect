@@ -18,7 +18,6 @@
 		CDBC98682706FDE900B4851F /* ConnectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC98672706FDE900B4851F /* ConnectButton.swift */; };
 		CDBC986A2707006B00B4851F /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC98692707006B00B4851F /* Status.swift */; };
 		CDBC986C2707010700B4851F /* InputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC986B2707010700B4851F /* InputForm.swift */; };
-		CDBC986E2707016F00B4851F /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC986D2707016F00B4851F /* Header.swift */; };
 		CDF5D7EB2705B8F0000DDB09 /* QuickConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D7EA2705B8F0000DDB09 /* QuickConnectApp.swift */; };
 		CDF5D7ED2705B8F0000DDB09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF5D7EC2705B8F0000DDB09 /* ContentView.swift */; };
 		CDF5D7EF2705B8F1000DDB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF5D7EE2705B8F1000DDB09 /* Assets.xcassets */; };
@@ -59,7 +58,6 @@
 		CDBC98672706FDE900B4851F /* ConnectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButton.swift; sourceTree = "<group>"; };
 		CDBC98692707006B00B4851F /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		CDBC986B2707010700B4851F /* InputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputForm.swift; sourceTree = "<group>"; };
-		CDBC986D2707016F00B4851F /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		CDF5D7E72705B8F0000DDB09 /* QuickConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF5D7EA2705B8F0000DDB09 /* QuickConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickConnectApp.swift; sourceTree = "<group>"; };
 		CDF5D7EC2705B8F0000DDB09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 				CDBC98652706FCC800B4851F /* DisconnectButton.swift */,
 				CDBC98672706FDE900B4851F /* ConnectButton.swift */,
 				CDBC986B2707010700B4851F /* InputForm.swift */,
-				CDBC986D2707016F00B4851F /* Header.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -365,7 +362,6 @@
 				CDAFF87E27061B2A00A8E070 /* View+Extended.swift in Sources */,
 				CDAFF87A2705E27400A8E070 /* Credentials.swift in Sources */,
 				CDAFF8772705E24200A8E070 /* Keychain.swift in Sources */,
-				CDBC986E2707016F00B4851F /* Header.swift in Sources */,
 				CDAFF8832706218A00A8E070 /* Terminal.swift in Sources */,
 				CDBC98662706FCC800B4851F /* DisconnectButton.swift in Sources */,
 				CDBC986A2707006B00B4851F /* Status.swift in Sources */,
