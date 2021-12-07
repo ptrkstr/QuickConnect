@@ -29,20 +29,17 @@ struct ConnectButton: View {
 			
 			print("Connect")
 			
-			// TODO: Alert if bad
-			let data = base32DecodeToData(credentials.otp)!
-			let code = TOTP(secret: data)!.generate(time: Date())!
-			
-			let input =
-			 """
-			 /opt/cisco/anyconnect/bin/vpn -s connect \(credentials.address) << "EOF"
-			 \(credentials.username)
-			 \(credentials.password)
-			 \(code)
-			 exit
-			 EOF
-			 """
-			
+            let input =
+    """
+    /opt/cisco/anyconnect/bin/vpn -s connect \(credentials.address) << "EOF"
+    1
+    \(credentials.username)
+    \(credentials.password)
+    y
+    exit
+    EOF
+    """
+            
 			log.append("\n----------------------\n")
 			
 			status = .connecting
