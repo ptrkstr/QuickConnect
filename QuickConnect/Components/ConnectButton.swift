@@ -28,13 +28,16 @@ struct ConnectButton: View {
 			}
 			
 			print("Connect")
+            
+            let data = base32DecodeToData(credentials.otp)!
+            let code = TOTP(secret: data)!.generate(time: Date())!
 			
             let input =
     """
     /opt/cisco/anyconnect/bin/vpn -s connect \(credentials.address) << "EOF"
     1
     \(credentials.username)
-    \(credentials.password)
+    \(credentials.password)\(code)
     y
     exit
     EOF

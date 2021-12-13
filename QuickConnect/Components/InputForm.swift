@@ -19,6 +19,8 @@ struct InputForm: View {
 				.formLabel(Text("Username:"))
 			SecureField("", text: $credentials.password)
 				.formLabel(Text("Password:"))
+            SecureField("", text: $credentials.otp)
+                .formLabel(Text("OTP Secret:"))
 			Toggle("", isOn: $isRemembered)
 				.formLabel(Text("Remember:"))
 		}
